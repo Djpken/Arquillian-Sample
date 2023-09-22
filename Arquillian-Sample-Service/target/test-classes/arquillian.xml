@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arquillian xmlns="http://jboss.org/schema/arquillian"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="
+        http://jboss.org/schema/arquillian
+        http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+
+    <container qualifier="jboss-eap-managed" default="true">
+        <configuration>
+            <property name="jbossHome">C:/debug/jboss-eap-7.4</property>
+            <property name="host">localhost</property>
+            <property name="modulePath">C:/debug/jboss-eap-7.4/modules</property>
+            <property name="serverConfig">standalone-full.xml</property>
+            <property name="jbossArguments">-Djboss.server.base.dir=C:/debug/jboss-eap-7.4/standalone</property>
+            <property name="javaVmArguments">"-Dprogram.name=JBossTools: Red Hat JBoss EAP 7.4" -server -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=1024m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true "-Dorg.jboss.boot.log.file=C:/debug/jboss-eap-7.4/standalone/log/boot.log" "-Dlogging.configuration=file:C:/debug/jboss-eap-7.4/standalone/configuration/logging.properties" "-Djboss.home.dir=C:/debug/jboss-eap-7.4" -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost </property>
+        </configuration>
+    </container>
+</arquillian>

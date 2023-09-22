@@ -1,0 +1,469 @@
+2023-09-22 11:06:17,043 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\deployments
+2023-09-22 11:06:17,056 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-09-22 11:06:17,086 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-09-22 11:06:17,139 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/MariaDBDS]
+2023-09-22 11:06:17,201 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.4.2.Final-redhat-00001 (Apache CXF 3.3.9.redhat-00001) 
+2023-09-22 11:06:17,296 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-09-22 11:06:17,298 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) started in 3292ms - Started 317 of 556 services (343 services are lazy, passive or on-demand)
+2023-09-22 11:06:17,301 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-09-22 11:06:17,302 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-09-22 11:07:28,851 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0272: Suspending server
+2023-09-22 11:07:28,853 INFO  [org.jboss.as.ejb3] (Thread-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-09-22 11:07:28,858 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-09-22 11:07:28,875 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:/MariaDBDS]
+2023-09-22 11:07:28,877 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-09-22 11:07:28,878 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2023-09-22 11:07:28,878 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-09-22 11:07:28,879 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2023-09-22 11:07:28,884 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = mariadb
+2023-09-22 11:07:28,885 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-09-22 11:07:28,889 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-09-22 11:07:28,893 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.2.5.Final-redhat-00001 stopping
+2023-09-22 11:07:28,902 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) stopped in 39ms
+2023-09-22 11:07:32,775 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final-redhat-00001
+2023-09-22 11:07:33,022 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final-redhat-00001
+2023-09-22 11:07:33,031 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final-redhat-00001
+2023-09-22 11:07:33,137 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) starting
+2023-09-22 11:07:33,138 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = MS950
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre
+	java.io.tmpdir = C:\Users\djpke\AppData\Local\Temp\
+	java.library.path = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PowerShell\7;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\redis;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\bin;C:\Program Files\Git\cmd;C:\Program Files\gradle-8.2.1\bin;C:\Program Files\PuTTY\;C:\Program Files\gsudo\Current;C:\Program Files\nodejs\;C:\forge-distribution-3.4.0.Final\bin;C:\apache-maven-3.9.4\bin;C:\Program Files (x86)\llvm-mingw-20230905-msvcrt-x86_64\llvm-mingw-20230905-msvcrt-x86_64\bin;C:\Program Files\Go\bin;C:\Users\djpke\AppData\Local\Microsoft\WindowsApps;C:\Users\djpke\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.4\bin;C:\Program Files\JetBrains\WebStorm 2023.1.4\bin;C:\Users\djpke\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\djpke\AppData\Local\Programs\oh-my-posh\bin;C:\Users\djpke\AppData\Roaming\npm;C:\Users\djpke\go\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_362-b08
+	java.specification.maintenance.version = 4
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Red Hat, Inc.
+	java.vendor.url = https://access.redhat.com/
+	java.vendor.url.bug = https://bugzilla.redhat.com/enter_bug.cgi
+	java.version = 1.8.0_362
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Red Hat, Inc.
+	java.vm.version = 25.362-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4
+	jboss.host.name = ken_varmeego
+	jboss.modules.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = ken_varmeego
+	jboss.qualified.host.name = ken_varmeego
+	jboss.server.base.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone
+	jboss.server.config.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration
+	jboss.server.data.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data
+	jboss.server.deploy.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content
+	jboss.server.log.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\log
+	jboss.server.name = ken_varmeego
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration/logging.properties
+	module.path = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\modules
+	org.jboss.boot.log.file = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\resources.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\rt.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\sunrsasign.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\jsse.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\jce.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\charsets.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\jfr.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\classes
+	sun.boot.library.path = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\jboss-modules.jar -mp C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = MS950
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = ms950
+	sun.stdout.encoding = ms950
+	user.country = TW
+	user.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\bin
+	user.home = C:\Users\djpke
+	user.language = zh
+	user.name = ken
+	user.script = 
+	user.timezone = Asia/Taipei
+	user.variant = 
+2023-09-22 11:07:33,139 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms1G -Xmx1G -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -verbose:gc -Xloggc:C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\log\gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -Dorg.jboss.boot.log.file=C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\log\server.log -Dlogging.configuration=file:C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration/logging.properties 
+2023-09-22 11:07:33,776 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.15.3.Final-redhat-00001
+2023-09-22 11:07:34,002 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2023-09-22 11:07:34,188 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-09-22 11:07:34,209 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 32) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-09-22 11:07:34,270 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-09-22 11:07:34,285 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.4.Final-redhat-00001
+2023-09-22 11:07:34,292 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.4.Final-redhat-00001
+2023-09-22 11:07:34,341 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-09-22 11:07:34,362 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 68) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-09-22 11:07:34,365 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 60) WFLYNAM0001: Activating Naming Subsystem
+2023-09-22 11:07:34,369 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 52) WFLYRS0016: RESTEasy version 3.15.1.Final-redhat-00001
+2023-09-22 11:07:34,370 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 41) WFLYJCA0004: Deploying JDBC-compliant driver class org.mariadb.jdbc.Driver (version 3.1)
+2023-09-22 11:07:34,381 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 66) WFLYSEC0002: Activating Security Subsystem
+2023-09-22 11:07:34,404 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.30.Final-redhat-00001)
+2023-09-22 11:07:34,404 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
+2023-09-22 11:07:34,404 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 70) WFLYWS0002: Activating WebServices Extension
+2023-09-22 11:07:34,408 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 57) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-09-22 11:07:34,415 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mariadb
+2023-09-22 11:07:34,419 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 49) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-09-22 11:07:34,425 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 59) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-09-22 11:07:34,426 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2023-09-22 11:07:34,427 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-09-22 11:07:34,449 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.2.5.Final-redhat-00001 starting
+2023-09-22 11:07:34,606 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY00023: KeyStore file 'C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-09-22 11:07:34,613 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0014: Creating file handler for path 'C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-09-22 11:07:34,644 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-09-22 11:07:34,941 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 51) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-09-22 11:07:34,945 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-09-22 11:07:34,945 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-09-22 11:07:34,968 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+2023-09-22 11:07:34,977 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.20.SP1-redhat-00001
+2023-09-22 11:07:34,977 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2023-09-22 11:07:34,979 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) Queuing requests.
+2023-09-22 11:07:34,980 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2023-09-22 11:07:34,990 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2023-09-22 11:07:35,010 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\deployments
+2023-09-22 11:07:35,052 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-09-22 11:07:35,053 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-09-22 11:07:35,061 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-09-22 11:07:35,126 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/MariaDBDS]
+2023-09-22 11:07:35,142 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.4.2.Final-redhat-00001 (Apache CXF 3.3.9.redhat-00001) 
+2023-09-22 11:07:35,240 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-09-22 11:07:35,242 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) started in 2808ms - Started 317 of 556 services (343 services are lazy, passive or on-demand)
+2023-09-22 11:07:35,245 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-09-22 11:07:35,245 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-09-22 11:08:18,724 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0272: Suspending server
+2023-09-22 11:08:18,726 INFO  [org.jboss.as.ejb3] (Thread-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-09-22 11:08:18,727 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-09-22 11:08:18,735 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/MariaDBDS]
+2023-09-22 11:08:18,738 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-09-22 11:08:18,738 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2023-09-22 11:08:18,740 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-09-22 11:08:18,741 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
+2023-09-22 11:08:18,745 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = mariadb
+2023-09-22 11:08:18,751 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-09-22 11:08:18,751 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-09-22 11:08:18,753 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 2.2.5.Final-redhat-00001 stopping
+2023-09-22 11:08:18,777 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) stopped in 46ms
+2023-09-22 11:08:22,818 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final-redhat-00001
+2023-09-22 11:08:23,086 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final-redhat-00001
+2023-09-22 11:08:23,095 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final-redhat-00001
+2023-09-22 11:08:23,195 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) starting
+2023-09-22 11:08:23,197 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = MS950
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre
+	java.io.tmpdir = C:\Users\djpke\AppData\Local\Temp\
+	java.library.path = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PowerShell\7;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\redis;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\bin;C:\Program Files\Git\cmd;C:\Program Files\gradle-8.2.1\bin;C:\Program Files\PuTTY\;C:\Program Files\gsudo\Current;C:\Program Files\nodejs\;C:\forge-distribution-3.4.0.Final\bin;C:\apache-maven-3.9.4\bin;C:\Program Files (x86)\llvm-mingw-20230905-msvcrt-x86_64\llvm-mingw-20230905-msvcrt-x86_64\bin;C:\Program Files\Go\bin;C:\Users\djpke\AppData\Local\Microsoft\WindowsApps;C:\Users\djpke\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.4\bin;C:\Program Files\JetBrains\WebStorm 2023.1.4\bin;C:\Users\djpke\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\djpke\AppData\Local\Programs\oh-my-posh\bin;C:\Users\djpke\AppData\Roaming\npm;C:\Users\djpke\go\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_362-b08
+	java.specification.maintenance.version = 4
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Red Hat, Inc.
+	java.vendor.url = https://access.redhat.com/
+	java.vendor.url.bug = https://bugzilla.redhat.com/enter_bug.cgi
+	java.version = 1.8.0_362
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Red Hat, Inc.
+	java.vm.version = 25.362-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4
+	jboss.host.name = ken_varmeego
+	jboss.modules.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = ken_varmeego
+	jboss.qualified.host.name = ken_varmeego
+	jboss.server.base.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone
+	jboss.server.config.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration
+	jboss.server.data.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data
+	jboss.server.default.config = standalone-full.xml
+	jboss.server.deploy.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content
+	jboss.server.log.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\log
+	jboss.server.name = ken_varmeego
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration/logging.properties
+	module.path = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\modules
+	org.jboss.boot.log.file = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\resources.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\rt.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\sunrsasign.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\jsse.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\jce.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\charsets.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\lib\jfr.jar;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\classes
+	sun.boot.library.path = C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.362-1\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\jboss-modules.jar -mp C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = MS950
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = ms950
+	sun.stdout.encoding = ms950
+	user.country = TW
+	user.dir = C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\bin
+	user.home = C:\Users\djpke
+	user.language = zh
+	user.name = ken
+	user.script = 
+	user.timezone = Asia/Taipei
+	user.variant = 
+2023-09-22 11:08:23,197 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms1G -Xmx1G -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djboss.server.default.config=standalone-full.xml -verbose:gc -Xloggc:C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\log\gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -Dorg.jboss.boot.log.file=C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\log\server.log -Dlogging.configuration=file:C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration/logging.properties 
+2023-09-22 11:08:23,843 INFO  [org.wildfly.security] (ServerService Thread Pool -- 29) ELY00001: WildFly Elytron version 1.15.3.Final-redhat-00001
+2023-09-22 11:08:24,049 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2023-09-22 11:08:24,224 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-09-22 11:08:24,252 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 9) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-09-22 11:08:24,319 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-09-22 11:08:24,335 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.4.Final-redhat-00001
+2023-09-22 11:08:24,341 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.4.Final-redhat-00001
+2023-09-22 11:08:24,395 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 3.15.1.Final-redhat-00001
+2023-09-22 11:08:24,395 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 52) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-09-22 11:08:24,397 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.mariadb.jdbc.Driver (version 3.1)
+2023-09-22 11:08:24,398 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 53) WFLYIIOP0001: Activating IIOP Subsystem
+2023-09-22 11:08:24,409 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.30.Final-redhat-00001)
+2023-09-22 11:08:24,412 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = mariadb
+2023-09-22 11:08:24,416 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-09-22 11:08:24,429 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-09-22 11:08:24,440 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 72) WFLYSEC0002: Activating Security Subsystem
+2023-09-22 11:08:24,450 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-09-22 11:08:24,451 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
+2023-09-22 11:08:24,487 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 66) WFLYNAM0001: Activating Naming Subsystem
+2023-09-22 11:08:24,490 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-09-22 11:08:24,501 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-09-22 11:08:24,605 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.2.5.Final-redhat-00001 starting
+2023-09-22 11:08:24,620 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2023-09-22 11:08:24,664 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-09-22 11:08:24,735 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY00023: KeyStore file 'C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-09-22 11:08:24,762 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-09-22 11:08:24,773 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-09-22 11:08:25,024 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-09-22 11:08:25,027 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-09-22 11:08:25,027 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-09-22 11:08:25,058 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+2023-09-22 11:08:25,062 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.20.SP1-redhat-00001
+2023-09-22 11:08:25,074 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2023-09-22 11:08:25,077 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2023-09-22 11:08:25,077 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2023-09-22 11:08:25,079 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2023-09-22 11:08:25,084 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\deployments
+2023-09-22 11:08:25,132 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-09-22 11:08:25,135 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-09-22 11:08:25,145 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-09-22 11:08:25,161 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2023-09-22 11:08:25,247 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/MariaDBDS]
+2023-09-22 11:08:25,249 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.4.2.Final-redhat-00001 (Apache CXF 3.3.9.redhat-00001) 
+2023-09-22 11:08:25,271 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\activemq\journal,bindingsDirectory=C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\activemq\bindings,largeMessagesDirectory=C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\activemq\largemessages,pagingDirectory=C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\activemq\paging)
+2023-09-22 11:08:25,311 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221013: Using NIO Journal
+2023-09-22 11:08:25,379 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-8) WFLYIIOP0009: CORBA ORB Service started
+2023-09-22 11:08:25,386 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2023-09-22 11:08:25,388 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2023-09-22 11:08:25,437 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221034: Waiting indefinitely to obtain live lock
+2023-09-22 11:08:25,438 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221035: Live Server Obtained live lock
+2023-09-22 11:08:25,778 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221003: Deploying ANYCAST queue jms.queue.ExpiryQueue on address jms.queue.ExpiryQueue
+2023-09-22 11:08:25,783 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221003: Deploying ANYCAST queue jms.queue.DLQ on address jms.queue.DLQ
+2023-09-22 11:08:25,799 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2023-09-22 11:08:25,799 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2023-09-22 11:08:25,799 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2023-09-22 11:08:25,799 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2023-09-22 11:08:25,898 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221007: Server is now live
+2023-09-22 11:08:25,898 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 78) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.16.0.redhat-00022 [default, nodeID=0c21c3b0-4c83-11ee-9315-5c80b69c6085] 
+2023-09-22 11:08:25,912 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 81) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2023-09-22 11:08:25,912 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 80) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2023-09-22 11:08:25,960 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0007: Registered connection factory java:/JmsXA
+2023-09-22 11:08:26,007 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-8) AMQ151007: Resource adaptor started
+2023-09-22 11:08:26,007 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2023-09-22 11:08:26,008 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-5) WFLYJCA0002: Bound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2023-09-22 11:08:26,008 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0118: Binding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2023-09-22 11:08:26,147 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-09-22 11:08:26,149 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.4.0.GA (WildFly Core 15.0.2.Final-redhat-00001) started in 3663ms - Started 357 of 597 services (359 services are lazy, passive or on-demand)
+2023-09-22 11:08:26,153 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-09-22 11:08:26,153 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-09-22 11:09:01,472 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\85\019701ecc0d7fae5916fba2462b06267e83981\content
+2023-09-22 11:09:01,492 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "Employee.ear" (runtime-name: "Employee.ear")
+2023-09-22 11:09:01,758 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "Employee.jar")
+2023-09-22 11:09:01,758 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "Employee.war")
+2023-09-22 11:09:02,033 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for mmcs2EjbPU
+2023-09-22 11:09:02,234 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV53020253: Second level cache enabled for Employee.ear/Employee.jar#mmcs2EjbPU
+2023-09-22 11:09:02,251 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment Employee.ear
+2023-09-22 11:09:02,402 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 6.0.22.Final-redhat-00002
+2023-09-22 11:09:02,909 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment Employee.war
+2023-09-22 11:09:02,938 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment Employee.jar
+2023-09-22 11:09:02,944 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'EmployeeFacade' in deployment unit 'subdeployment "Employee.jar" of deployment "Employee.ear"' are as follows:
+
+	java:global/Employee/Employee.jar/EmployeeFacade!org.arquillian.example.facade.IEmployeeFacade
+	java:app/Employee.jar/EmployeeFacade!org.arquillian.example.facade.IEmployeeFacade
+	java:module/EmployeeFacade!org.arquillian.example.facade.IEmployeeFacade
+	java:global/Employee/Employee.jar/EmployeeFacade
+	java:app/Employee.jar/EmployeeFacade
+	java:module/EmployeeFacade
+
+2023-09-22 11:09:02,948 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'EmployeeService' in deployment unit 'subdeployment "Employee.jar" of deployment "Employee.ear"' are as follows:
+
+	java:global/Employee/Employee.jar/EmployeeService!org.arquillian.example.IEmployeeService
+	java:app/Employee.jar/EmployeeService!org.arquillian.example.IEmployeeService
+	java:module/EmployeeService!org.arquillian.example.IEmployeeService
+	java:jboss/exported/Employee/Employee.jar/EmployeeService!org.arquillian.example.IEmployeeService
+	ejb:Employee/Employee.jar/EmployeeService!org.arquillian.example.IEmployeeService
+	java:global/Employee/Employee.jar/EmployeeService
+	java:app/Employee.jar/EmployeeService
+	java:module/EmployeeService
+
+2023-09-22 11:09:03,097 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 3.1.6 (redhat)
+2023-09-22 11:09:03,243 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV53020253: Second level cache enabled for Employee.ear/Employee.jar#mmcs2EjbPU
+2023-09-22 11:09:03,318 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 84) ISPN000128: Infinispan version: Red Hat Data Grid 'Infinispan 11.0.9.Final-redhat-00001' 8.1.1.GA
+2023-09-22 11:09:03,376 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 84) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Employee.ear/Employee.jar#mmcs2EjbPU'
+2023-09-22 11:09:03,387 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-09-22 11:09:03,390 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-09-22 11:09:03,419 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 84) HHH000204: Processing PersistenceUnitInfo [
+	name: mmcs2EjbPU
+	...]
+2023-09-22 11:09:03,551 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-09-22 11:09:03,555 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 84) HHH000412: Hibernate Core {5.3.20.Final-redhat-00001}
+2023-09-22 11:09:03,558 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 84) HHH000206: hibernate.properties not found
+2023-09-22 11:09:03,727 WARN  [org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl] (ServerService Thread Pool -- 84) HHH000059: Defining hibernate.transaction.flush_before_completion=true ignored in HEM
+2023-09-22 11:09:03,788 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 84) HCANN000001: Hibernate Commons Annotations {5.0.5.Final-redhat-00002}
+2023-09-22 11:09:03,859 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-09-22 11:09:03,936 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 84) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Employee.ear/Employee.jar#mmcs2EjbPU'
+2023-09-22 11:09:04,232 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 84) HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-09-22 11:09:04,298 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 84) Envers integration enabled? : true
+2023-09-22 11:09:05,542 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/test' for server 'default-server'
+2023-09-22 11:09:05,604 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "Employee.ear" (runtime-name : "Employee.ear")
+2023-09-22 11:09:06,053 INFO  [org.wildfly.naming] (default task-2) WildFly Naming version 1.0.14.Final-redhat-00001
+2023-09-22 11:09:06,074 INFO  [org.jboss.ejb.client] (default task-2) JBoss EJB Client version 4.0.39.SP1-redhat-00001
+2023-09-22 11:09:06,223 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-2) HHH000397: Using ASTQueryTranslatorFactory
+2023-09-22 11:09:06,330 INFO  [stdout] (default task-2) Hibernate: 
+2023-09-22 11:09:06,330 INFO  [stdout] (default task-2)     select
+2023-09-22 11:09:06,330 INFO  [stdout] (default task-2)         employee0_.id as id1_0_,
+2023-09-22 11:09:06,331 INFO  [stdout] (default task-2)         employee0_.name as name2_0_ 
+2023-09-22 11:09:06,331 INFO  [stdout] (default task-2)     from
+2023-09-22 11:09:06,331 INFO  [stdout] (default task-2)         employee employee0_
+2023-09-22 11:09:06,428 INFO  [org.arquillian.example.common.PerformanceInterceptor] (default task-2) [PerformanceInterceptor] at [ken_varmeego] org.arquillian.example.EmployeeService->selectEmployee() executed in 282 ms
+2023-09-22 11:09:06,491 INFO  [stdout] (default task-2) [Company{id=1, name='Kevin'}, Company{id=2, name='Alice'}, Company{id=3, name='Kelly'}]
+2023-09-22 11:09:06,543 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: '/test' from server 'default-server'
+2023-09-22 11:09:06,570 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Employee.ear/Employee.jar#mmcs2EjbPU'
+2023-09-22 11:09:06,572 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 79) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@2b5bc969
+2023-09-22 11:09:06,576 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Employee.ear/Employee.jar#mmcs2EjbPU'
+2023-09-22 11:09:06,597 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 79) Stopping cache manager null on null
+2023-09-22 11:09:06,602 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: Employee.jar) in 66ms
+2023-09-22 11:09:06,606 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: Employee.war) in 70ms
+2023-09-22 11:09:06,614 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment Employee.ear (runtime-name: Employee.ear) in 79ms
+2023-09-22 11:09:06,638 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\85\019701ecc0d7fae5916fba2462b06267e83981\content
+2023-09-22 11:09:06,638 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "Employee.ear" (runtime-name: "Employee.ear")
+2023-09-22 11:18:23,530 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0009: Content C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\3e\ca8f8fee55da3d7aabf7ce67925f5dabb098ed is obsolete and will be removed
+2023-09-22 11:18:23,539 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\3e\ca8f8fee55da3d7aabf7ce67925f5dabb098ed\content
+2023-09-22 11:18:23,539 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0009: Content C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\76\5337fc22224238ee5deaf92c4d79d9ef36ffee is obsolete and will be removed
+2023-09-22 11:18:23,545 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\76\5337fc22224238ee5deaf92c4d79d9ef36ffee\content
+2023-09-22 11:18:23,546 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0009: Content C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\80\5f2e6b9e18686cad345074449c3693bdba9ad4 is obsolete and will be removed
+2023-09-22 11:18:23,550 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\80\5f2e6b9e18686cad345074449c3693bdba9ad4\content
+2023-09-22 11:18:23,551 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0009: Content C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\0a\e04d7f6cde464f6e857c160b73096e063dd7b4 is obsolete and will be removed
+2023-09-22 11:18:23,554 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\0a\e04d7f6cde464f6e857c160b73096e063dd7b4\content
+2023-09-22 11:18:23,554 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0009: Content C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\43\62c970b8e1dcfb039a654a21e43ae33b836541 is obsolete and will be removed
+2023-09-22 11:18:23,558 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\43\62c970b8e1dcfb039a654a21e43ae33b836541\content
+2023-09-22 11:18:23,558 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0009: Content C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\c6\13eef3953b0625ebc9a53c81dce59ec5a55ce1 is obsolete and will be removed
+2023-09-22 11:18:23,560 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\c6\13eef3953b0625ebc9a53c81dce59ec5a55ce1\content
+2023-09-22 11:18:23,561 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0009: Content C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\ad\911fa1de1dacd09270f083c009e0f2698a56da is obsolete and will be removed
+2023-09-22 11:18:23,562 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\ad\911fa1de1dacd09270f083c009e0f2698a56da\content
+2023-09-22 11:18:23,563 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0009: Content C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\2b\c2600fe93afab64467ab30c77c9dba2ea5b636 is obsolete and will be removed
+2023-09-22 11:18:23,565 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\2b\c2600fe93afab64467ab30c77c9dba2ea5b636\content
+2023-09-22 11:18:23,565 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0009: Content C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\73\1202cb50f645c00a57e323b98b41707fe9a50a is obsolete and will be removed
+2023-09-22 11:18:23,567 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 83) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\73\1202cb50f645c00a57e323b98b41707fe9a50a\content
+2023-09-22 11:27:37,406 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\9a\276756b26e0dc565aa8153e5703b4aa0f2dc14\content
+2023-09-22 11:27:37,409 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "Employee.ear" (runtime-name: "Employee.ear")
+2023-09-22 11:27:37,542 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "Employee.war")
+2023-09-22 11:27:37,542 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "Employee.jar")
+2023-09-22 11:27:37,586 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for mmcs2EjbPU
+2023-09-22 11:27:37,636 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV53020253: Second level cache enabled for Employee.ear/Employee.jar#mmcs2EjbPU
+2023-09-22 11:27:37,638 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment Employee.ear
+2023-09-22 11:27:37,660 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Employee.ear/Employee.jar#mmcs2EjbPU'
+2023-09-22 11:27:37,660 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 79) HHH000204: Processing PersistenceUnitInfo [
+	name: mmcs2EjbPU
+	...]
+2023-09-22 11:27:37,663 WARN  [org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl] (ServerService Thread Pool -- 79) HHH000059: Defining hibernate.transaction.flush_before_completion=true ignored in HEM
+2023-09-22 11:27:37,673 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment Employee.war
+2023-09-22 11:27:37,675 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment Employee.jar
+2023-09-22 11:27:37,677 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'EmployeeFacade' in deployment unit 'subdeployment "Employee.jar" of deployment "Employee.ear"' are as follows:
+
+	java:global/Employee/Employee.jar/EmployeeFacade!org.arquillian.example.facade.IEmployeeFacade
+	java:app/Employee.jar/EmployeeFacade!org.arquillian.example.facade.IEmployeeFacade
+	java:module/EmployeeFacade!org.arquillian.example.facade.IEmployeeFacade
+	java:global/Employee/Employee.jar/EmployeeFacade
+	java:app/Employee.jar/EmployeeFacade
+	java:module/EmployeeFacade
+
+2023-09-22 11:27:37,678 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'EmployeeService' in deployment unit 'subdeployment "Employee.jar" of deployment "Employee.ear"' are as follows:
+
+	java:global/Employee/Employee.jar/EmployeeService!org.arquillian.example.IEmployeeService
+	java:app/Employee.jar/EmployeeService!org.arquillian.example.IEmployeeService
+	java:module/EmployeeService!org.arquillian.example.IEmployeeService
+	java:jboss/exported/Employee/Employee.jar/EmployeeService!org.arquillian.example.IEmployeeService
+	ejb:Employee/Employee.jar/EmployeeService!org.arquillian.example.IEmployeeService
+	java:global/Employee/Employee.jar/EmployeeService
+	java:app/Employee.jar/EmployeeService
+	java:module/EmployeeService
+
+2023-09-22 11:27:37,739 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV53020253: Second level cache enabled for Employee.ear/Employee.jar#mmcs2EjbPU
+2023-09-22 11:27:37,749 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 79) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Employee.ear/Employee.jar#mmcs2EjbPU'
+2023-09-22 11:27:37,782 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 79) HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-09-22 11:27:37,787 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 79) Envers integration enabled? : true
+2023-09-22 11:27:37,945 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0021: Registered web context: '/test' for server 'default-server'
+2023-09-22 11:27:37,960 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "Employee.ear" (runtime-name : "Employee.ear")
+2023-09-22 11:27:38,312 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2023-09-22 11:27:38,314 INFO  [stdout] (default task-1) Hibernate: 
+2023-09-22 11:27:38,314 INFO  [stdout] (default task-1)     select
+2023-09-22 11:27:38,315 INFO  [stdout] (default task-1)         employee0_.id as id1_0_,
+2023-09-22 11:27:38,315 INFO  [stdout] (default task-1)         employee0_.name as name2_0_ 
+2023-09-22 11:27:38,315 INFO  [stdout] (default task-1)     from
+2023-09-22 11:27:38,315 INFO  [stdout] (default task-1)         employee employee0_
+2023-09-22 11:27:38,374 INFO  [org.arquillian.example.common.PerformanceInterceptor] (default task-1) [PerformanceInterceptor] at [ken_varmeego] org.arquillian.example.EmployeeService->selectEmployee() executed in 64 ms
+2023-09-22 11:27:38,463 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0022: Unregistered web context: '/test' from server 'default-server'
+2023-09-22 11:27:38,474 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Employee.ear/Employee.jar#mmcs2EjbPU'
+2023-09-22 11:27:38,476 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 89) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@40f8ca55
+2023-09-22 11:27:38,477 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Employee.ear/Employee.jar#mmcs2EjbPU'
+2023-09-22 11:27:38,483 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 89) Stopping cache manager null on null
+2023-09-22 11:27:38,488 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: Employee.jar) in 34ms
+2023-09-22 11:27:38,492 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: Employee.war) in 36ms
+2023-09-22 11:27:38,498 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment Employee.ear (runtime-name: Employee.ear) in 43ms
+2023-09-22 11:27:38,513 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location C:\Users\djpke\varmeego\Arquillian-Sample\jboss-eap-7.4\standalone\data\content\9a\276756b26e0dc565aa8153e5703b4aa0f2dc14\content
+2023-09-22 11:27:38,514 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "Employee.ear" (runtime-name: "Employee.ear")
