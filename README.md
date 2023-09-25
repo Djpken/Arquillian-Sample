@@ -1,18 +1,29 @@
 Arquillian-Sample
 =
-This repository is example of Arquillian test framework,this contains two modules ,one Sql and Jboss eap
 
-1. Arquillian-Sample-Service
-    + A sample service about select Employee table
-2. Arquillian-Sample-Test
-    + To test Arquillian-Sample-Service Module
-3. employee.sql
-    + A sample Table for Arquillian-Sample-Service
-4. jBoss-eap-7,4
-    + Take the deployment this repository
-    + Only Mariadb is supported
-5. doc
-    + Study about Arquillian
++ This repository is example of Arquillian test framework ,
++ The following is the dependencies of this repository
+    1. Jboss EAP 7.4
+        + MariaDB
+    2. Maven
+        + JUnit
+        + JavaEE-7.0
+        + Arquillian
+        + Wildfly-arquillian-container-managed(optional)
+        + Wildfly-arquillian-container-remote(optional)
+
++ The following is the project structure
+    1. Arquillian-Sample-Service
+        + A sample service about select Employee table
+    2. Arquillian-Sample-Test
+        + To test Arquillian-Sample-Service Module
+    3. employee.sql
+        + A sample Table for Arquillian-Sample-Service
+    4. jBoss-eap-7,4
+        + Take the deployment this repository
+        + Only Mariadb is supported
+    5. doc
+        + Study about Arquillian
 
 Setup-managed
 -
@@ -69,7 +80,8 @@ Setup-managed
 Remote
 -
 
-1. Change container label arquillian-wildfly-remote attribute default="true"
+1. Do the same as managed 1.step 2.step
+2. Change container label arquillian-wildfly-remote attribute default="true"
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <arquillian xmlns="http://jboss.org/schema/arquillian"
@@ -78,13 +90,13 @@ Remote
            http://jboss.org/schema/arquillian
            http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
    
-       <container qualifier="arquillian-wildfly-managed" default="true">
+       <container qualifier="arquillian-wildfly-managed" >
            <configuration>
                <property name="jbossHome">YOUR_JBOSS_ABSOLUTE_PATH</property>
                <property name="serverConfig">standalone-full.xml</property>
            </configuration>
        </container>
-       <container qualifier="arquillian-wildfly-remote" >
+       <container qualifier="arquillian-wildfly-remote" default="true">
            <configuration>
                <property name="managementAddress">127.0.0.1</property>
                <property name="managementPort">9990</property>
@@ -94,6 +106,6 @@ Remote
        </container>
    </arquillian>
    ```
-2. Change Maven Profiles **arquillian-wildfly-remote**
-3. Run your JUnit test
-4. Good luck with the test
+3. Change Maven Profiles **arquillian-wildfly-remote**
+4. Run your JUnit test
+5. Good luck with the test

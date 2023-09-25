@@ -152,7 +152,7 @@
         <subsystem xmlns="urn:jboss:domain:datasources:6.0">
             <datasources>
                 <datasource jndi-name="java:/MariaDBDS" pool-name="MariaDBDS" enabled="true" use-java-context="true">
-                    <connection-url>jdbc:mariadb://172.16.241.24:3306/mmcs3dev</connection-url>
+                    <connection-url>jdbc:mariadb://172.16.241.21:3306/dev</connection-url>
                     <driver>mariadb</driver>
                     <security>
                         <user-name>root</user-name>
