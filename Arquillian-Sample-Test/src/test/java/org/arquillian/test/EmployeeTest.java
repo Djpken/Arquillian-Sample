@@ -1,16 +1,16 @@
 package org.arquillian.test;
 
-import org.arquillian.example.EmployeeService;
-import org.arquillian.example.IEmployeeService;
-import org.arquillian.example.common.Logger;
-import org.arquillian.example.common.PerformanceInterceptor;
-import org.arquillian.example.entity.IBaseEntity;
-import org.arquillian.example.entity.impl.BaseEntity;
-import org.arquillian.example.entity.impl.Employee;
-import org.arquillian.example.facade.IBaseFacade;
-import org.arquillian.example.facade.IEmployeeFacade;
-import org.arquillian.example.facade.impl.BaseFacade;
-import org.arquillian.example.facade.impl.EmployeeFacade;
+import org.arquillian.sample.service.impl.EmployeeService;
+import org.arquillian.sample.service.IEmployeeService;
+import org.arquillian.sample.common.Logger;
+import org.arquillian.sample.common.PerformanceInterceptor;
+import org.arquillian.sample.entity.IBaseEntity;
+import org.arquillian.sample.entity.impl.BaseEntity;
+import org.arquillian.sample.entity.impl.Employee;
+import org.arquillian.sample.facade.IBaseFacade;
+import org.arquillian.sample.facade.IEmployeeFacade;
+import org.arquillian.sample.facade.impl.BaseFacade;
+import org.arquillian.sample.facade.impl.EmployeeFacade;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit5.ArquillianExtension;
 import org.jboss.shrinkwrap.api.Archive;
@@ -29,14 +29,15 @@ import java.util.List;
 @ExtendWith(ArquillianExtension.class)
 public class EmployeeTest {
     public static final String MAIN_NAME = "Employee";
-    public static final String JAR_NAME = MAIN_NAME + ".jar";
-    public static final String WAR_NAME = MAIN_NAME + ".war";
-    public static final String EAR_NAME = MAIN_NAME + ".ear";
+    public static final String JAR = ".jar";
+    public static final String WAR = ".war";
+    public static final String EAR = ".ear";
     public static final String TEST_APPLICATION_XML = "test-application.xml";
+    public static final String MAIN_JAVA_PACKAGE = "org.arquillian.sample";
 
     @Deployment
     public static Archive<?> createDeployment() throws IOException {
-        final JavaArchive jar = ShrinkWrap.create(JavaArchive.class, JAR_NAME)
+        final JavaArchive jar = ShrinkWrap.create(JavaArchive.class, MAIN_NAME + JAR)
                 .addClass(IEmployeeService.class)
                 .addClass(EmployeeService.class)
                 .addClass(PerformanceInterceptor.class)
@@ -50,9 +51,9 @@ public class EmployeeTest {
                 .addClass(BaseEntity.class)
 //                .addPackages(true, MAIN_JAVA_PACKAGE)
                 .addAsManifestResource("test-persistence.xml", "persistence.xml");
-        final WebArchive war = ShrinkWrap.create(WebArchive.class, WAR_NAME)
+        final WebArchive war = ShrinkWrap.create(WebArchive.class, MAIN_NAME + WAR)
                 .addClass(EmployeeTest.class);
-        final EnterpriseArchive ear = ShrinkWrap.create(EnterpriseArchive.class, EAR_NAME)
+        final EnterpriseArchive ear = ShrinkWrap.create(EnterpriseArchive.class, MAIN_NAME + EAR)
                 .setApplicationXML(TEST_APPLICATION_XML)
                 .addAsModule(jar).addAsModule(war);
         return ear;
@@ -72,7 +73,7 @@ public class EmployeeTest {
     public void selectEmployeeTest() {
         List<Employee> employees = employeeService.selectEmployee();
         for (int i = 0; i < employees.size(); i++) {
-            Assertions.assertEquals(NAME_LISTS[i],employees.get(i).getName());
+            Assertions.assertEquals(NAME_LISTS[i], employees.get(i).getName());
         }
     }
 }
